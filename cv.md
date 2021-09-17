@@ -34,21 +34,21 @@
   ```
   const move = ({ keyCode }) => {
     if (!gameOver && isPlaying) {
-       switch (keyCode){
-			 	case '37':
-					movePlayer(-1);
-					break;
-				case '38':
-					playerRotate(stage, 1);
-					break;
+      switch (keyCode){
+        case '37':
+          movePlayer(-1);
+          break;
+        case '38':
+          playerRotate(stage, 1);
+          break;
         case '39':
-					movePlayer(1);
-					break;
-				case '40':    
-        	dropPlayer();
-					break;
-				default: 
-					alert('No such function');
+          movePlayer(1);
+          break;
+        case '40':    
+          dropPlayer();
+          break;
+        default: 
+          alert('No such function');
       } 
     }
   };
