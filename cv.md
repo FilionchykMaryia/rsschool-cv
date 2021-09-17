@@ -26,29 +26,29 @@
   * Git
   
 ### **LANGUAGES**
-  * **English** 
+  * **English**\ 
       Beginner
-  * **Russian** 
+  * **Russian**\ 
       Native
-  * **Belorussian** 
+  * **Belorussian**\ 
       Native
 
 ### **EDUCATION**
-  * **IT-academy "STEP"**
-    *2019-2020*
+  * **IT-academy "STEP"**\
+    *2019-2020*\
     *Web-developer*
 
-  * **Yanka Kupala State University of Grodno**
-    *2011-2016*
+  * **Yanka Kupala State University of Grodno**\
+    *2011-2016*\
     *The art of music*
   
 ### **WORK EXPERIENCE**
-  * **Velox Imaging**
-    *May 2021 - this time*
+  * **Velox Imaging**\
+    *May 2021 - this time*\
     *Frontend Developer*
 
-  * **High school №18**
-    *2016-2020*
+  * **High school №18**\
+    *2016-2020*\
     *Teacher, concertmaster*
 
 ### **CODE EXAMPLE**
