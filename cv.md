@@ -31,7 +31,7 @@
   * **Belorussian** Native
 
 ### **CODE EXAMPLE**
-  > ```
+  ```
   const move = ({ keyCode }) => {
     if (!gameOver && isPlaying) {
        switch (keyCode){
