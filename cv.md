@@ -1,6 +1,6 @@
 # rsschool-cv
 
-## **FILIONCHYK MARYIA**\
+## **FILIONCHYK MARYIA**
 
 ### **CONTACTS**
   * **Location:** Grodno, Belarus
@@ -16,7 +16,7 @@
   I appreciate responsibility, courtesy, reliability, constant development and bringing what I started to the result.
   I spend almost all my free time studying new technologies, and also deepen the acquired knowledge by working on educational projects.
   I constantly invest in my self-development. I prefer professional and technical literature, as well as topics of psychology and personal development.
-  My goal is to develop professionally as a frontend developer.\
+  My goal is to develop professionally as a frontend developer.
 ### **SKILLS**
   * HTML5, CSS3
   * Javascript
@@ -30,4 +30,26 @@
   * **Russian** Native
   * **Belorussian** Native
 
-
+### **CODE EXAMPLE**
+  > ```
+  const move = ({ keyCode }) => {
+    if (!gameOver && isPlaying) {
+       switch (keyCode){
+			 	case '37':
+					movePlayer(-1);
+					break;
+				case '38':
+					playerRotate(stage, 1);
+					break;
+        case '39':
+					movePlayer(1);
+					break;
+				case '40':    
+        	dropPlayer();
+					break;
+				default: 
+					alert('No such function');
+      } 
+    }
+  };
+  ```
