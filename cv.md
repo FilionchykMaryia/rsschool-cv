@@ -27,11 +27,11 @@
   
 ### **LANGUAGES**
   * **English**\ 
-      Beginner
+    *Beginner*
   * **Russian**\ 
-      Native
+    *Native*
   * **Belorussian**\ 
-      Native
+    *Native*
 
 ### **EDUCATION**
   * **IT-academy "STEP"**\
