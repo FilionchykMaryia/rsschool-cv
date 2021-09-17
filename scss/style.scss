@@ -1,7 +1,139 @@
-* {
+@import "_vars";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    margin: 5px 0;
+  }
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  min-width: 320px;
   font-family: 'Nunito', sans-serif;
   color: black;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #fff;
+  overflow-x: hidden;
 }
-.title {
-  font-family: 'Montserrat', sans-serif;
+
+.container {
+  position: relative;
+  max-width: 1920px;
+  min-width: 780px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.title-red__h1 {
+  @include title;
+  font-weight: 500;
+  color: $red;
+}
+.title-red__h3 {
+  @include title;
+  font-weight: 300;
+  color: $red;
+}
+.title-red__h4 {
+  @include title;
+  font-weight: 700;
+  color: $red;
+}
+.title-blue {
+  @include title;
+  color: $blue;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.header {
+  position: relative;
+  &-title {
+    position: absolute;
+    right: 172px;
+    top: 175px;
+  }
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  height: 330px;
+  overflow: hidden;
+  &::after{
+    content: "";
+    position: absolute;
+    top: -93px;
+    left: 3px;
+    width: 881px;
+    height: 248px;
+    z-index: 5;
+    transform: rotate(14deg);
+    overflow: hidden;
+    background-color: $red;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: -82px;
+    left: -130px;
+    width: 467px;
+    height: 305px;
+    z-index: 4;
+    transform: rotate(-35deg);
+    overflow: hidden;
+    background-color: $blue;
+  }
+}
+
+.aside {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  background-color: $grey;
+  width: 35%;
+  &-wrapper{
+    padding: 335px 12px 0 26px;
+  }
+}
+
+.section-skills {
+  margin-top: 30px;
+  li {
+    font-weight: 700;
+  }
+}
+
+.avatar {
+  z-index: 100;
+  position: absolute;
+  top: 150px;
+  left: 61px;
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
 }
