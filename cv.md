@@ -26,11 +26,11 @@
   * Git
   
 ### **LANGUAGES**
-  * **English**\ 
+  * **English**\
     *Beginner*
-  * **Russian**\ 
+  * **Russian**\
     *Native*
-  * **Belorussian**\ 
+  * **Belorussian**\
     *Native*
 
 ### **EDUCATION**
