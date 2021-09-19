@@ -1,5 +1,5 @@
 @import "_vars";
-html,
+*, html,
 body {
   padding: 0;
   margin: 0;
@@ -40,6 +40,7 @@ body {
 
 .container {
   position: relative;
+  height: 100%;
   max-width: 1920px;
   min-width: 780px;
   margin: 0 auto;
@@ -69,7 +70,7 @@ body {
 }
 
 .header {
-  position: relative;
+  width: 100%;
   &-title {
     position: absolute;
     right: 172px;
@@ -111,7 +112,7 @@ body {
 .aside {
   position: absolute;
   top: 0;
-  height: 100vh;
+  height: 100%;
   background-color: $grey;
   width: 35%;
   &-wrapper{
@@ -136,4 +137,41 @@ body {
     height: 150px;
     border-radius: 50%;
   }
+}
+
+.item-1 {
+  font-weight: 700;
+}
+.item-2 {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.main {
+  position: absolute;
+  top: 331px;
+  right: 0;
+  height: 100%;
+  width: 65%;
+  padding: 0 30px;
+  h4 {
+    margin: 0 12px 11px;
+  }
+  section {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid $grey;
+  }
+}
+
+.section-about {
+  p {
+    line-height: 18px;
+    font-size: 16px;
+    font-style: italic;
+  }
+}
+
+.section-work {
+
 }
