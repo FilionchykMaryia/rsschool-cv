@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700&family=Nunito:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   </head>
 <body>
   <div class="container">
@@ -104,7 +107,7 @@
       </section>
       <section class="section-code">
         <h4 class="title-red__h4">CODE EXAMPLE</h4>
-        <pre>
+        <pre><code class="javascript">
 const move = ({ keyCode }) => {
   if (!gameOver && isPlaying) {
     switch (keyCode){
@@ -119,7 +122,7 @@ const move = ({ keyCode }) => {
     } 
   }
 };
-        </pre>
+</code></pre>
       </section>
     </main>
     <footer class="footer">
